@@ -1,0 +1,163 @@
+.container {
+    max-width: 800px;
+    min-height: 800px;
+    margin: 100px auto;
+}
+
+footer {
+    max-width: 800px;
+    height: auto;
+    background: rgb(222, 222, 222);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer a {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.rs img {
+    width: 15%;
+    height: 35%;
+}
+
+.head {
+    display: flex;
+    height: 230px;
+}
+
+.title-name {
+    display: flex;
+    width: 65%; 
+    height: 100%;
+    font-size: 18px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+}
+
+.foto {
+    display: flex;
+    width: 35%;
+    height: 100%;
+    background: url(img/img.jpg) no-repeat center center / cover;
+}
+
+.content {
+    display: flex;
+    text-align: left;
+}
+
+.about-me {
+    width: 65%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.my-skills {
+    width: 35%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+.skills li {
+    margin-top: 5px;
+    transition: transform .5s ease;
+}
+
+.education-work {
+    display: flex;
+    text-align: left;
+}
+
+.education {
+    width: 65%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.educ li:hover {
+    transform: translateX(10px);
+}
+
+.educ li {
+    margin-top: 5px;
+    transition: transform .5s ease;
+}
+
+.work {
+    width: 35%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.contacts-english {
+    display: flex;
+    text-align: left;
+}
+
+.contacts {
+    width: 65%;
+    padding: 20px;
+    font-size: 18px;
+    word-break: break-all;
+    margin: 0;
+}
+
+.cont li:hover {
+    transform: translateX(10px);
+}
+
+.cont li {
+    margin-top: 5px;
+    transition: transform .5s ease; 
+}
+
+.english {
+    width: 35%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.code {
+    display: flex;
+    text-align: left; 
+    padding: 20px;
+    margin-top: 0;
+}
+
+.language-js {
+    padding: 20;
+    margin: 0;
+    font-size: 14px;
+}
+
+.myProject {
+    display: flex;
+    text-align: left; 
+    padding: 20px;
+    margin: 0;
+    line-height: 0;
+}
+
+.project {
+    width: 65%;
+    padding: 20px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.projectImg {
+    padding: 10px;
+    margin: 0;
+    line-height: 0;
+}
