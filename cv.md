@@ -1,16 +1,16 @@
 ## Name 
 #### Zakhar Anikeyenka
-## Contacts
+## Contacts:
 * telegram: @httphfgfdv
-## About me 
+## About me: 
 #### My goal is to become a web developer. Personal qualities: analytical mindset, logical thinking, purposefulness, willingness to learn new things, punctuality, high teachability, efficiency.Hobbies: sports, reading scientific literature, traveling.
-## My skills
+## My skills:
 * basic knowledge of C
 * basic knowledge of Java
 * Basic HTML skills
 * basic knowledge of CSS
 * basic knowledge of Git&Github
-## Work expirience
+## Work expirience:
 #### February 2020 - December 2020 - Project Engineer, System Administrator.
 ## Education
 #### Francisk Skorina Gomel State University
