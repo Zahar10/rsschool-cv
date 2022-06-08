@@ -1,12 +1,12 @@
 .container {
-    max-width: 800px;
+    width: 800px;
     min-height: 800px;
     margin: 100px auto;
 }
 
 footer {
-    max-width: 800px;
-    height: auto;
+    width: 800px;
+    height: 100px;
     background: rgb(222, 222, 222);
     margin: 0 auto;
     text-align: center;
@@ -17,15 +17,9 @@ footer a {
     color: black;
     font-size: 20px;
     margin-left: 10px;
-    text-align: center;
 }
 
-.rs img {
-    width: 15%;
-    height: 35%;
-}
-
-.head {
+.header {
     display: flex;
     height: 230px;
 }
@@ -45,18 +39,18 @@ footer a {
     display: flex;
     width: 35%;
     height: 100%;
-    background: url(img/img.jpg) no-repeat center center / cover;
+    background: url(img.jpg) no-repeat center center / cover;
 }
 
 .content {
     display: flex;
-    text-align: left;
 }
 
 .about-me {
     width: 65%;
     padding: 20px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .my-skills {
@@ -76,13 +70,13 @@ footer a {
 
 .education-work {
     display: flex;
-    text-align: left;
 }
 
 .education {
     width: 65%;
     padding: 20px;
     font-size: 18px;
+    text-align: justify; 
 }
 
 .educ li:hover {
@@ -102,15 +96,13 @@ footer a {
 
 .contacts-english {
     display: flex;
-    text-align: left;
 }
 
 .contacts {
     width: 65%;
     padding: 20px;
     font-size: 18px;
-    word-break: break-all;
-    margin: 0;
+    text-align: justify;
 }
 
 .cont li:hover {
@@ -126,38 +118,4 @@ footer a {
     width: 35%;
     padding: 20px;
     font-size: 18px;
-}
-
-.code {
-    display: flex;
-    text-align: left; 
-    padding: 20px;
-    margin-top: 0;
-}
-
-.language-js {
-    padding: 20;
-    margin: 0;
-    font-size: 14px;
-}
-
-.myProject {
-    display: flex;
-    text-align: left; 
-    padding: 20px;
-    margin: 0;
-    line-height: 0;
-}
-
-.project {
-    width: 65%;
-    padding: 20px;
-    font-size: 18px;
-    margin: 0;
-}
-
-.projectImg {
-    padding: 10px;
-    margin: 0;
-    line-height: 0;
 }

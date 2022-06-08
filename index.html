@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Оформление CV выполнено в минималистичном стиле, именно поэтому всё в чёрно-бело-серых цветах-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Resume">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <style>
+       p.exserif { font-family: "Times New Roman", Times, serif; }
+       ul {
+         margin: 0;
+         padding: 0;
+         list-style-position: inside;
+       }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="title-name">
+          <h1> Zakhar Anikeyenka </h1>
+        </div>
+        <div class="foto"> </div>
+      </div>
+      <div class="content">
+        <div class="about-me">
+          <h3> About me: </h3>
+            <section>
+              <h3> My goal is to become a web developer. </h3>
+              <p>Personal qualities: analytical mindset, logical thinking,<br>
+              purposefulness, desire to learn new things, punctuality, high<br>
+              learning ability, working capacity. </p>
+              <p>Hobbies: sports, reading scientific literature, travel.</p>
+            </section>
+        </div>
+        <div class="my-skills">
+          <h3> My skills: </h3>
+            <ul class="skills">
+              <li>C (the basics);</li>
+              <li>Java (the basics);</li>
+              <li>HTML, CSS;</li>
+              <li>Git&Github (the basics);</li>
+              <li>JavaScript (the basics);</li>
+              <li>Adobe Photoshop;</li>
+              <li>AutoCAD.</li>
+            </ul>
+        </div>
+      </div>
+      <div class="education-work">
+        <div class="education">
+          <h3> Education: </h3>
+          <p>Francisk Skorina Gomel State University:</p>
+          <ul class="educ">
+            <li>Department of Physics and Information Technologies;</li>
+            <li>Major: Electronic Security Systems.</li>
+          </ul>
+          <p>Francisk Skorina Gomel State University,<br>
+            Institute for Professional Development:</p>
+          <ul class="educ">
+            <li>Department: Law;</li>
+            <li>Major: Jurisprudence.</li>
+          </ul>
+        </div>
+        <div class="work">
+          <h3> Work expirience </h3>
+          <p>February 2020 - December 2020,<br>
+          Project Engineer, <br>
+          System Administrator.</p>
+        </div>
+      </div>
+      <div class="contacts-english">
+        <div class="contacts">
+          <h3> Contacts: </h3>
+            <ul class="cont">
+              <li>mail: mister.anikeenko@gmail.com</li>
+              <li>telegram: @httphfdc</li>
+            </ul>
+        </div>
+        <div class="english">
+          <h3> English: </h3>
+          <p>A2</p>
+        </div>
+      </div>
+      <nav class="code">
+        <h3> Code example: </h3>
+      </nav>
+      <pre>
+        <code class="language-js">
+        function solution(number){
+          let total = 0;
+          for (let i = 1; i &lt; number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+              total += i;
+            }
+          }
+          return total;
+        }
+        </code>
+      </pre>
+      <div class="myProject" >
+        <h3> My projects: </h3>
+      </div>
+      <header class="project">
+        <h4> Project cv </h4>
+        <p> My resume <br> CSS, HTML <p>
+      </header>
+      <p class="projectImg">
+        <a href="https://zahar10.github.io/rsschool-cv/" target="_blank"><img src="img/project.jpg" alt=""></a>
+      </p>
+      <footer>
+        <nav>
+          <a href="https://github.com/Zahar10">GitHub</a>
+          <br>
+          <br>
+        </nav>
+        <h2> 2021 </h2>
+        <div class="rs">
+          <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt=""></a>
+        </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+    </div>
+  </body>
+</html>
