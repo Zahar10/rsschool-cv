@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Zahar10.github.io/rsschool-cv/
