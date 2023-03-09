@@ -21,4 +21,4 @@
 * Faculty: Law   
 * Major: Jurisprudence
 ## English 
-#### ~A2
+#### A2
